@@ -1,0 +1,13 @@
+# .github/workflows/hola.yml
+name: Hola GitHub Actions
+
+# Evento que dispara la acción
+on: push
+
+jobs:
+  ejemplo:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Decir Hola
+      run: echo "Hola GitHub Actions"
